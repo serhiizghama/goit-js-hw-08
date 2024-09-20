@@ -97,7 +97,6 @@ function oneClickToModal(event) {
     }
 
     const selectedItem = event.target.dataset.largeSource;
-    console.log(selectedItem);
 
     const instance = basicLightbox.create(`
 		<img src="${selectedItem}" width="800" height="600">
